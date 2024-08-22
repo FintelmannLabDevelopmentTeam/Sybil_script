@@ -1,0 +1,7 @@
+files_paths=$(for file in sybil_demo_data/*; do
+    echo "-F 'dicom=@$file' \c"
+done)
+
+sybil_cmd="curl -X POST -F 'data={}' $files_paths http://localhost:[PORT]/dicom/files"
+
+eval $sybil_cmd
