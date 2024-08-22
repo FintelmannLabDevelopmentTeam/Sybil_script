@@ -18,23 +18,23 @@ single exam.
 4. After a few minutes, you will receive a JSON response like so:
 
 {
-"data": {
-"predictions": [
-[
-[
-0. 021628819563619374,
-0. 03857256315036462,
-0. 07191945816622261,
-0.07926975188037134,
-0. 09584583525781108,
-0.13568094038444453
-]
-]
-]
-｝
-"message": null,
-"metadata": null,
-"runtime": "83.05s",
-"statusCode":
-200
+  "data": {
+    "predictions": [
+      [
+        [
+          0. 021628819563619374,
+          0. 03857256315036462,
+          0. 07191945816622261,
+          0.07926975188037134,
+          0. 09584583525781108,
+          0.13568094038444453
+        ]
+      ]
+    ]
+  ｝
+  "message": null,
+  "metadata": null,
+  "runtime": "83.05s",
+  "statusCode":
+  200
 }
